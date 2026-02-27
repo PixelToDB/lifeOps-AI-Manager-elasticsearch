@@ -1,0 +1,33 @@
+{
+  "info": {
+    "name": "LifeOps API",
+    "_postman_id": "lifeops-collection",
+    "description": "LifeOps Multi-Agent Orchestrator",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Process Email",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"raw_text\": \"Your electricity bill of ₹2450 is due tomorrow.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/process-email",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["process-email"]
+        }
+      }
+    }
+  ]
+}

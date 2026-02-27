@@ -1,6 +1,3 @@
-# lifeOps-AI-Manager-elasticsearch
-AI Personal Operations Manager “From Chaos to Control.”
-
 # 🟢 LifeOps – AI Personal Operations Manager
 
 LifeOps is a multi-agent AI system that detects financial, scheduling, and commitment risks in real time and automatically generates safe, verified action plans.
