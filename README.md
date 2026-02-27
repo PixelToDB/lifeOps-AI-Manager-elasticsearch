@@ -1,3 +1,5 @@
+<img width="1893" height="976" alt="Screenshot 1" src="https://github.com/user-attachments/assets/767c00cc-39ba-4e1b-85f2-6b0ae277f9f0" />
+
 # 🟢 LifeOps – AI Personal Operations Manager
 
 LifeOps is a multi-agent AI system that detects financial, scheduling, and commitment risks in real time and automatically generates safe, verified action plans.
@@ -130,5 +132,6 @@ POST /process-email
 (For Offline Demo):
 
 In orchestrator.js:
+
 
 Replace real agent calls with mock functions when USE_MOCK=true in .env.
